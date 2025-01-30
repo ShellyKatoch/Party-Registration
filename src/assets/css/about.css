@@ -1,0 +1,170 @@
+/* src/pages/AboutPage.css */
+
+/* General Container Styles */
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Section */
+  .about-header {
+    text-align: center;
+    background-color: #0047ab;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* History Section */
+  .history-section {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .history-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    background-color: #eef7ff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .mission-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .mission-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(33% - 40px);
+    max-width: 250px;
+  }
+  
+  .team-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Footer Section */
+  .about-footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0047ab;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .about-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 320px;
+    img{
+      width: 100%;
+    }
+  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding:16px;
+
+  span{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+}
+.card-wrapper{
+  display: flex;
+  gap: 20px;
+}
+form.add-course-wrapper{
+  width: 600px;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}

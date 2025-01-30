@@ -1,0 +1,130 @@
+/* src/pages/HomePage.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .homepage-header {
+    background-color: #0047ab;
+    color: white;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .homepage-header h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+  }
+  
+  .homepage-header p {
+    font-size: 1.2rem;
+    margin: 0 0 20px;
+  }
+  
+  .cta-button {
+    background-color: #ffcc00;
+    color: #0047ab;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Highlights Section */
+  .highlights-section {
+    background-color: white;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .highlights-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlights-section p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Core Values Section */
+  .values-section {
+    background-color: #eef7ff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+  }
+  
+  .values-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .values-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .value-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .value-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .value-item p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Footer Section */
+  .homepage-footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0047ab;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .homepage-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
